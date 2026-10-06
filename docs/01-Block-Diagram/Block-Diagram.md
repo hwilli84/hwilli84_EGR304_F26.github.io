@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This is my individual board. It is connected to via my teammate's output.
+This is my individual board. It is connected to via my teammate's outputs.
 
 
 
