@@ -20,5 +20,5 @@ Herm | Williams
 1. Step 1
 2. Step 2
 
-## Individual Block Diagram
+## Individal Block Diagram
 ![Individual Block Diagram](IndividualBlockDiagram.drawio.png)
