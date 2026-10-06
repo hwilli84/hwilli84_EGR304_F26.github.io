@@ -13,4 +13,4 @@ This is my individual board. It is connected to via my teammate's outputs.
 Block Diagram 
 
 
-![Individual Block Diagram](../../../IndividualBlockDiagram.drawio.png)
+![Individual Block Diagram](IndividualBlockDiagram.drawio.png)
