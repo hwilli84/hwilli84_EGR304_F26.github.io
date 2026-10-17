@@ -1,58 +1,34 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
 
-### Style 1
+### Motor
 
-> This is the example found in the assignment, uses more html
+*Table 1: Motor Component Selection*
 
-*Table 1: Example component selection*
+| Solution | Pros | Cons |
+| :--- | :--- | :--- |
+| ![](Screenshot_2026-10-16_172221.png)<br><br>**Option 1**<br>942-PPN7PA12C1-ND<br>$4.50/each<br>[Link to Product](http://www.digikey.com) | * The product is relatively cheap compared to others[cite: 1].<br>* Meets the requirements for the overall design objective of a lampshade[cite: 1].<br>* It is simple to wire[cite: 1]. | * Requires an external mounting system for the overall project[cite: 1].<br>* Requires a clamping system for the attachment on the shaft of the motor itself[cite: 1]. |
+| ![](Screenshot_2026-10-16_172943.png)<br><br>**Option 2**<br>942-PAN14EE12AA1-ND<br>$6.27/each<br>[Link to Product](http://www.digikey.com) | * The product is not that expensive compared to other ones on the market[cite: 2].<br>* Meets the requirements for the overall design objective of a lampshade that moves up and down to cover a plant[cite: 2].<br>* It is relatively simple to wire[cite: 2]. | * Also requires an external mounting system for the overall project in order to function[cite: 2].<br>* Requires a clamping system for the attachment on the shaft of the motor itself in order to work[cite: 2]. |
+| ![](Screenshot_2026-10-16_173226.png)<br><br>**Option 3**<br>1528-2589-ND<br>$2.95/each<br>[Link to Product](http://www.digikey.com) | * The product is very cheap compared to other ones on the market[cite: 3].<br>* Meets the requirements for the overall design objective of a lampshade that moves up and down to cover a plant[cite: 3].<br>* It is very simple to wire[cite: 3]. | * This motor also requires an external mounting system for the overall project in order to function[cite: 3].<br>* Requires a clamping system for the attachment on the shaft of the motor itself in order to work[cite: 3].<br>* The shaft is offset by 90 degrees which could very well cause trouble[cite: 3]. |
 
-**External Clock Module**
+**Choice:** Option 1: 942-PPN7PA12C1-ND DC motor[cite: 3]
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+**Rationale:** This DC Motor design is where the shaft just comes out straight from the motor instead of having that 90 degree offset like in option 3[cite: 3]. As to why I went with this one over option 2, it is because it is cheaper[cite: 3].
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+---
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+### Solenoid
 
-### Style 2
+*Table 2: Solenoid Component Selection*
 
-> Also acceptable, more markdown friendly
+| Solution | Pros | Cons |
+| :--- | :--- | :--- |
+| ![](Screenshot_2026-10-16_173450.png)<br><br>**Option 1**<br>1568-11015-ND<br>$6.50/each<br>[Link to Product](http://www.digikey.com) | * The product is pretty cheap compared to other ones on the market[cite: 4].<br>* It meets the requirements for the overall design objective of a valve that switches the flow of water between banks[cite: 4].<br>* It is very simple to wire[cite: 4]. | * This solenoid requires an external mounting system for the overall project in order to function[cite: 4].<br>* Requires an extension system for the attachment on the shaft of the solenoid in order to connect[cite: 4]. |
+| ![](Screenshot_2026-10-16_173817.png)<br><br>**Option 2**<br>1528-2797-ND<br>$7.50/each<br>[Link to Product](http://www.digikey.com) | * The product is pretty inexpensive compared to other ones on the market[cite: 4].<br>* It meets the requirements for the overall design objective of a valve that switches the flow of water between banks[cite: 4].<br>* It is very simple to wire[cite: 4]. | * This solenoid requires an external mounting system for the overall project in order to function[cite: 4].<br>* Requires an extension system for the attachment on the shaft of the solenoid in order to connect[cite: 4]. |
+| ![](Screenshot_2026-10-16_174107.png)<br><br>**Option 3**<br>1144-1402-ND<br>$16.92/each<br>[Link to Product](http://www.digikey.com) | * The product is still slightly cheaper compared to other ones on the market.<br>* It meets the requirements for the overall design objective of a valve that switches the flow of water between banks.<br>* It is not extremely difficult to wire. | * This solenoid requires an external mounting system for the overall project in order to function.<br>* It will require a more advanced mounting system.<br>* Requires an extension system for the attachment on the shaft of the solenoid in order to connect. |
 
-**External Clock Module**
+**Choice:** Option 1: 1568-11015-ND 5 volts DC solenoid
 
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** This solenoid design is a push solenoid and it is rated for 5 volts which is what the PIC powers. I like it better than option 2 because the shaft looks easier to connect a water valve ring to. As to why I went with this one over option 3, it is because it is way cheaper and more simple to work with.
