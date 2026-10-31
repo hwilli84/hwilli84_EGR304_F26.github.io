@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1 style="font-size: 32px; font-weight: bold; margin: 10px 0;">Herman Williams's Datasheet</h1>
+<h1 style="font-size: 32px; font-weight: bold; margin: 10px 0;">Herman Williams' Datasheet</h1>
 <p style="font-size: 14px; color: #555; margin: 5px 0;">as part of</p>
 <h1 style="font-size: 32px; font-weight: bold; margin: 10px 0;">Project B.A.M.F</h1>
 <p style="font-size: 14px; color: #555; margin: 5px 0;">for</p>
@@ -21,8 +21,8 @@
 
 ## My Contribution
 - My contributions to this project are my personal Datasheet, that goes over essential information such as the schematic of my part and the relating diagram, component selection, bill of materials, and power budget.
-- To review the connection diagram, visit the [Block Diagram](#block-diagram) heading.
-- To review the components, visit the [Component Selection](#component-selection) heading.
-- To review the materials, visit the [BOM](#bom) heading.
-- To review the wiring diagram, visit the [Schematic](#schematic) heading.
-- To review the details of the power budget, visit the [Power Budget](#power-budget) heading.
+- To review the connection diagram, visit the [Block Diagram](01-Block-Diagram.md) heading.
+- To review the components, visit the [Component Selection](02-Component-Selection.md) heading.
+- To review the materials, visit the [BOM](03-BOM.md) heading.
+- To review the wiring diagram, visit the [Schematic](04-Schematic.md) heading.
+- To review the details of the power budget, visit the [Power Budget](05-Power-Budget.md) heading.
