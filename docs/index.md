@@ -21,8 +21,8 @@
 
 ## My Contribution
 - My contributions to this project are my personal Datasheet, that goes over essential information such as the schematic of my part and the relating diagram, component selection, bill of materials, and power budget.
-- To review the connection diagram, visit the [Block Diagram](01-Block-Diagram.md) heading.
-- To review the components, visit the [Component Selection](02-Component-Selection.md) heading.
-- To review the materials, visit the [BOM](03-BOM.md) heading.
-- To review the wiring diagram, visit the [Schematic](04-Schematic.md) heading.
-- To review the details of the power budget, visit the [Power Budget](05-Power-Budget.md) heading.
+- To review the connection diagram, visit the [Block Diagram](01-Block-Diagram/) heading.
+- To review the components, visit the [Component Selection](02-Component-Selection/) heading.
+- To review the materials, visit the [BOM](03-BOM/) heading.
+- To review the wiring diagram, visit the [Schematic](04-Schematic/) heading.
+- To review the details of the power budget, visit the [Power Budget](05-Power-Budget/) heading.
