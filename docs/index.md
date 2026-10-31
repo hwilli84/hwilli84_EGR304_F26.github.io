@@ -1,16 +1,16 @@
-<h1 style="font-weight: 300; color: #555;">Welcome</h1>
-
-<div align="center" style="margin-top: 20px;">
+<div align="center">
 
 # Herman Williams's Datasheet
-<p style="font-size: 16px; color: #666; margin: 8px 0;">as part of</p>
+
+as part of
 
 # Project B.A.M.F
-<p style="font-size: 16px; color: #666; margin: 8px 0;">for</p>
+
+for
 
 ## Team 205
 
-<p style="font-size: 16px; font-weight: bold; margin-top: 15px;">Submission: October 30, 2026</p>
+**Submission: October 30, 2026**
 
 </div>
 
