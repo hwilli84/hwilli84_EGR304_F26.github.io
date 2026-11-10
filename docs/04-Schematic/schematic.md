@@ -7,7 +7,7 @@ title: Schematic
 This schematic is design to support 2 motors and a solenoid for the final project.
 
 
-![schematic](Screenshot 2026-10-30 160130.png){style width:"350" height:"300;"}
+![schematic](Screenshot 2026-11-09 212929.png){style width:"350" height:"300;"}
 
 
 
