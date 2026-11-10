@@ -19,4 +19,4 @@ This is the back of the PCB
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](PCBFrontAndBack.pdf), and the Zip folder of the project [*here*](Subsystem_Schematic_Updated.zip). The Gerber files can be downloaded [*here*](Subsystem_Schematic-Gerber.zip).
+The PCB images are available as a PDF download [*here*](PCBFrontAndBack.pdf), and the Zip folder of the project [*here*](Subsystem_Schematic_Updated.zip). The Gerber files can be downloaded [*here*](Subsystem_Schematic-Gerber.zip).
