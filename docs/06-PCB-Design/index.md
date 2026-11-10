@@ -1,3 +1,22 @@
-# 06 PCB Design
+---
+title: PCB Design
+---
 
-Your content, images, and DFM report notes go here.
+## Front
+
+This is the front of the PCB
+
+
+![schematic](Screenshot 2026-11-09 212929.png){style width:"350" height:"300;"}
+
+
+## Back
+
+This is the back of the PCB
+
+
+![schematic](Screenshot 2026-11-09 212929.png){style width:"350" height:"300;"}
+
+## Resouces
+
+The schematic as a PDF download is available [*here*](Subsystem_Schematic.pdf), and the Zip folder of the project [*here*](Subsystem_Schematic.zip).
